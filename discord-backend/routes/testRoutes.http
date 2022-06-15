@@ -1,0 +1,24 @@
+### Test login route
+POST http://localhost:5002/api/auth/login
+Content-Type: application/json
+
+{
+    "password": "rhino1",
+    "mail": "rhino1@gmail.com"
+}
+
+### Test register route
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json 
+
+{
+    "username": "Rhino1", 
+    "mail": "rhino1@gmail.com",
+    "password": "rhino1"
+}
+
+### Test token
+GET http://localhost:5002/api/auth/test HTTP/1.1
+    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjZlMTdkMGRlOTcwOGM2ZDM0ZWEwOGUiLCJtYWlsIjoicmhpbm8xQGdtYWlsLmNvbSIsImlhdCI6MTY1MTQxNTE1MiwiZXhwIjoxNjUxNTAxNTUyfQ.tV5D1D1lQJ-R8TisL2GKCUrbOZJBeymTMFvrm6w74yA
+
+
