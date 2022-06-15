@@ -1,2 +1,2 @@
-# mean-stack-discord-clone
-Discord clone developed with the MEAN-stack
+# mern-stack-discord-clone
+Discord clone developed with the MERN-stack (MongoDB, express, React, nodejs)
